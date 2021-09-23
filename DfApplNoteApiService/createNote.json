@@ -1,0 +1,87 @@
+{
+    "patientReference": "5f4e48cc79f216361c34cb09",
+    "questionnaire": "ontrak-assessment-template-1.0",
+    "authorId": "5f4e48cc79f216361c34cb08",
+    "authorPersonType": "CareCoach",
+    "sourceReference": "5f4e48cc79f216361c34cb78",
+    "sourceType": "Patient",
+    "sourcePersonType": "Patient",
+    "status": "completed",
+    "authored": "2018-11-23T00:00:00.000Z",
+    "item": [
+        {
+            "linkId": "ontrak-assessment-template.question5.1.2.1",
+            "answer": [
+                {
+                    "valueString": "Wed, 15 Apr 2020"
+                },
+                {
+                    "valueString": "Thurs, 16 Apr 2020"
+                }
+            ],
+            "item": [
+                {
+                    "linkId": "1.1.3",
+                    "definition": "http://loinc.org/fhir/DataElement/69734-2",
+                    "text": "Trouble relaxing",
+                    "answer": [
+                        {
+                            "valueBoolean": true
+                        }
+                    ]
+                },
+                {
+                    "linkId": "1.1.2",
+                    "definition": "http://loinc.org/fhir/DataElement/68509-9",
+                    "text": "Control worrying",
+                    "answer": [
+                        {
+                            "valueInteger": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "linkId": "ontrak-assessment-template.question5.1.2.2",
+            "answer": [
+                {
+                    "valueString": "Anxiety"
+                },
+                {
+                    "valueString": "Depression"
+                }
+            ]
+        },
+        {
+            "linkId": "1.1.3",
+            "definition": "http://loinc.org/fhir/DataElement/69734-2",
+            "text": "Trouble relaxing",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "1.1.2",
+            "definition": "http://loinc.org/fhir/DataElement/68509-9",
+            "text": "Control worrying",
+            "answer": [
+                {
+                    "valueInteger": 3
+                }
+            ]
+        },
+        {
+            "linkId": "1.1.1",
+            "definition": "http://loinc.org/fhir/DataElement/69725-0",
+            "text": "Feeling nervous",
+            "answer": [
+                {
+                    "valueInteger": 2
+                }
+            ]
+        }
+    ]
+}
